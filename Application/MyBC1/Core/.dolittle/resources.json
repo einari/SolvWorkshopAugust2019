@@ -6,9 +6,8 @@
             "useSSL": false
         },
         "eventStore": {
-            "host": "mongodb://localhost:27017",
-            "database": "mybc1_event_store",
-            "useSSL": false
+            "connectionString": "ConnectTo=tcp://localhost:1113",
+            "instance":"tenant-a-microservice-a-instance-a"
         }
     }
 }
