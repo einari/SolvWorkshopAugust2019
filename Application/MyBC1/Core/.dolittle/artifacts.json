@@ -1,1 +1,34 @@
-{}
+{
+  "999923ff-659b-4598-a04f-cfb7b9a1c1f5": {
+    "commands": {
+      "c5e57b74-3b1d-4cbb-9809-97e09a9170d0": {
+        "generation": 1,
+        "type": "Domain.Accounts.OpenAccount, Domain"
+      }
+    },
+    "events": {
+      "32ef580e-06fc-463b-b490-2b5e9adfd967": {
+        "generation": 1,
+        "type": "Events.Accounts.AccountOpened, Events"
+      }
+    },
+    "eventSources": {
+      "e1dcca4a-c997-4fa9-8a23-2e097bfb146e": {
+        "generation": 1,
+        "type": "Domain.Accounts.Account, Domain"
+      }
+    },
+    "readModels": {
+      "a649deb1-c18f-43bf-9356-90524ecee3ed": {
+        "generation": 1,
+        "type": "Read.Accounts.Account, Read"
+      }
+    },
+    "queries": {
+      "d0393f8b-a88d-4c1d-82b3-7b1d970044af": {
+        "generation": 1,
+        "type": "Read.Accounts.AllAccounts, Read"
+      }
+    }
+  }
+}

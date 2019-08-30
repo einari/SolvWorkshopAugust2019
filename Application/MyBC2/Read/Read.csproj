@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Events\Events.csproj" />
+    <ProjectReference Include="..\Events.MyBC1\Events.MyBC1.csproj" />
     <ProjectReference Include="..\Concepts\Concepts.csproj" />
   </ItemGroup>
 

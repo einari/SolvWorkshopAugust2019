@@ -1,0 +1,26 @@
+{
+    "application": "78228399-78a6-dbd3-5e7d-adee9fed1eff",
+    "boundedContext": "d033b92f-06c5-386f-90ec-d1dbbdef322e",
+    "boundedContextName": "myFirstSony",
+    "resources": {
+        "readModels": {
+            "development": "MongoDB",
+            "production": "MongoDB"
+        },
+        "eventStore": {
+            "development": "MongoDB",
+            "production": "MongoDB"
+        }
+    },
+    "core": {
+        "language": "csharp"
+    },
+    "interaction": [
+        {
+            "type": "interaction",
+            "language": "javascript",
+            "framework": "aurelia",
+            "entryPoint": "Web"
+        }
+    ]
+}

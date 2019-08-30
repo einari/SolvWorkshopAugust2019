@@ -1,4 +1,9 @@
 {
   "modules": {},
-  "features": {}
+  "features": {
+    "999923ff-659b-4598-a04f-cfb7b9a1c1f5": {
+      "name": "Accounts",
+      "subFeatures": {}
+    }
+  }
 }
